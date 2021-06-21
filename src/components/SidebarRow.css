@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    flex-direction:row;
+    transition:all .1s;
+    margin:15px 10px;
+    border-radius:10px;
+    height:40px;
+    width:100%;
+    cursor: pointer;
+    align-items: center;
+}
+.row:hover{
+    background-color: #eff2f5;
+}
+.row p{
+    margin:0px 10px;
+    font-weight: 600;
+}
+.row>.MuiSvgIcon-root{
+    margin:0px 5px;
+    font-size: xx-large;
+}
+

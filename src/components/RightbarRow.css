@@ -1,0 +1,26 @@
+.rightbarRow{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width:95%;
+    height:40px;
+    cursor: pointer;
+    transition:all .3s;
+    border-radius: 5px;
+    margin:5px 5px;
+    font-size: 15px;
+    
+}
+.rightbarRow:hover{
+    background-color:#a0a0a0;
+    
+}
+.rightbarRow>h4{
+    margin:0px 8px;
+}
+.rightbarRow .avatar{
+    height:30px;
+    width:30px;
+    border:1px solid rgb(11, 136, 253);
+    margin:0px 5px;
+}

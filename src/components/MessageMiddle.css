@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.messageMiddle{
+    font-family: 'Montserrat';
+    margin:30px auto;
+    width:75%;
+    height:110px;
+    border-radius: 5px;
+    box-shadow:1px 1px 5px black;
+}
+.upper{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    margin:10px auto;
+}
+.upper .avatar{
+    font-size: 40px;
+}
+.upper form{
+    width:90%;
+    display: flex;
+    flex-direction:row;
+    outline:none;
+    align-items: center;
+    font-family: 'Montserrat','sans-serif';
+}
+.upper .formInput{
+    width:60%;
+    height:40px;
+    border-radius:50px;
+    outline:none;
+    border:none;
+    background-color: #acafb3;
+    padding:0px 5px;
+    flex:1;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 900;
+    transition:all .2s;
+}
+.upper .formInput:hover{
+    cursor: pointer;
+background-color: #c1c6ca;
+
+}
+.upper .submit_button{
+    border:none;
+    background-color:black;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 800;
+    height:30px;
+    width:13%;
+    margin:0px 5px;
+    color:white;
+    border-radius: 5px;
+    transition:all .5s;
+    
+}
+.upper .submit_button:hover{
+    cursor: pointer;
+    box-shadow:1px 1px 2px black;
+}
+.lower{
+display: flex;
+flex-direction:row;
+justify-content: space-evenly;
+align-items: center;
+}
+.lower>div{
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+margin:5px 5px;
+height:40px;
+width:160px;
+border-radius:5px;
+transition:all .3s;
+}
+.lower div:hover{
+    cursor: pointer;
+    background-color:#c1c6ca;
+}
+.lower>div .icon{
+    font-size: 30px;
+}

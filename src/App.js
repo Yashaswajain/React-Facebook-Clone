@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Header from './components/Header.js'
+import Sidebar from './components/Sidebar.js'
+import Feed from './components/Feed.js'
+import RightsideBar from './components/RightsideBar.js'
+import './App.css'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+        <Header profileSrc="https://static.vecteezy.com/system/resources/thumbnails/001/541/050/small/boy-cartoon-face-free-vector.jpg"/>
+        <div className="app">
+        <Sidebar/>
+        <Feed/>
+        <RightsideBar/>
+        {/*HEADER*/}
+        {/*Sidebar*/}
+        {/*mainfeed*/}
+        {/*rightbar*/}
+        </div>
+        
+        </>
+    )
 }
 
-export default App;
+export default App

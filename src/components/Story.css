@@ -1,0 +1,29 @@
+.story{
+     width:25%;
+     height:180px;
+     border-radius: 5px;
+     cursor: pointer;
+     box-shadow: .2px .2px 5px black;
+     background-size: cover;
+     background-repeat: none;
+     margin:10px 10px;
+     transition:all .2s;
+}
+.story:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.story .avatar{
+    height:40px;
+    width:40px;
+    border-radius:100px;
+    margin:5px 5px;
+    border:3px solid rgb(11, 136, 253);
+}
+.story .title{
+    color:white;
+    position:absolute;
+    margin:90px 5px;
+    font-family: 'Montserrat','sans-serif';
+    font-size:.8rem;
+    word-wrap: break-word;
+}
